@@ -4,8 +4,8 @@ import './App.css';
 
 function App() {
   const [tasks, setTasks] = useState([
-    { id: 1, text: 'Faire les courses', completed: false },
-    { id: 2, text: 'Préparer le dîner', completed: true },
+    { id: 1, text: 'Do the shopping', completed: false },
+    { id: 2, text: 'To prepare dinner', completed: true },
   ]);
 
   const addTask = (text) => {
