@@ -30,7 +30,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Ma Todo List</h1>
+      <h1>My To-do List</h1>
       <TodoList tasks={tasks} addTask={addTask} completeTask={completeTask} deleteTask={deleteTask} />
     </div>
   );
